@@ -8,14 +8,10 @@ class MakeMoviePage extends StatelessWidget {
     return const Scaffold(
       backgroundColor: Colors.black,
       body: Center(
-        child: Column(
-          children: [
-            Text("makeMovie",
-            style: TextStyle(
-              color: Colors.white
-            ),)
-          ],
-        ),
+        child: Text("makeMovie",
+        style: TextStyle(
+          color: Colors.white
+        ),),
       ),
     );
   }

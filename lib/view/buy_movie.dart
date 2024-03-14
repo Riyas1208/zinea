@@ -8,14 +8,10 @@ class BuyMoviePage extends StatelessWidget {
     return const Scaffold(
       backgroundColor: Colors.black,
       body: Center(
-        child: Column(
-          children: [
-            Text("book CelebrityPage",
-              style: TextStyle(
-                  color: Colors.white
-              ),)
-          ],
-        ),
+        child: Text("buy movie",
+          style: TextStyle(
+              color: Colors.white
+          ),),
       ),
     );
   }
