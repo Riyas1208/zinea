@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:zinea/view/book_celebrity.dart';
+import 'package:zinea/view/buy_movie.dart';
 import 'package:zinea/view/home_screen.dart';
+import 'package:zinea/view/make_movie.dart';
 
 class BottomNav extends StatefulWidget {
   @override
@@ -11,9 +14,9 @@ class _BottomNavState extends State<BottomNav> {
 
   final List _pages = [
     HomePage(),
-    // MakeMoviePage(),
-    // BuyMoviePage(),
-    // BookCelebrityPage(),
+    MakeMoviePage(),
+    BuyMoviePage(),
+    BookCelebrityPage(),
   ];
 
   void _onItemTapped(int index) {
