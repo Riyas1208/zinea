@@ -98,11 +98,12 @@ class _FavouritePageState extends State<FavouritePage> {
                       ),
                       TabItemList(
                         imagePath: 'assets/images/panther.png',
-                        title: 'Black Panther:Wakanda Forever',
+                        title: 'Black Panther:\nWakanda Forever',
                         subtitle: '1 Hour 30 Mins',
                       ),
                     ],
                   ),
+                  SizedBox(height: 10,),
                   Row(
                     children: [
                       TabItemList(
